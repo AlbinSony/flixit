@@ -13,6 +13,9 @@ function Banner() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ad odit unde, minima quam aperiam repellendus aliquam repudiandae possimus explicabo rem, quasi, ut corrupti accusantium numquam quidem laboriosam provident? In.
             </h1>
         </div>
+        <div className="fade-bottom">
+            
+        </div>
     </div>
   )
 }
