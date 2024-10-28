@@ -1,18 +1,23 @@
-.row{
+.row {
     margin-left: 20px;
     color: #fff;
 }
-.posters{
+
+.posters {
     display: flex;
     padding: 20px;
-    overflow-x: scroll;
+    overflow-x: auto; /* Enable horizontal scrolling */
     overflow-y: hidden;
-}
-.posters::-webkit-scrollbar{
-    display: none;
+    scroll-snap-type: x mandatory; /* Enable snap-scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
 }
 
-.poster{
+.posters::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+.poster {
     max-height: 250px;
     margin-right: 10px;
+    scroll-snap-align: start; /* Each image will snap to start of container */
 }
